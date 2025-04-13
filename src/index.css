@@ -1,0 +1,96 @@
+/* Global reset and layout */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Buttons for each audio loop */
+.loop-button {
+  padding: 1rem 2rem;
+  width: 10rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #444;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: inherit;
+}
+
+.loop-button:hover {
+  background-color: #666;
+}
+
+.loop-button.active {
+  background-color: #00cc66;
+  color: black;
+}
+
+/* Optional utility classes */
+.text-3xl {
+  font-size: 2rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-opacity-60 {
+  opacity: 0.6;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.bg-red-900 {
+  background-color: #7f1d1d;
+}
